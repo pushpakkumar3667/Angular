@@ -1,0 +1,13 @@
+.img_style
+{
+    height: auto;
+    width: 500px;
+    position: absolute;
+    z-index: -1000;
+    padding-top: 180px;
+}
+hr
+{
+    border-top: 0.5px solid grey;
+    opacity: 0.2;
+}

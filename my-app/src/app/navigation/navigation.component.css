@@ -1,0 +1,35 @@
+.logo_style
+{
+    height:80px;
+    width:auto;
+    padding: 10px 0px 10px 100px;
+}
+ul.menu
+{
+    display: flex;
+    position: absolute;
+    margin: -90px 0 0 50%;
+}
+ul.menu li
+{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding: 20px;
+    
+}
+ul.menu li a
+{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    padding-bottom:20px ;
+}
+a.act
+{
+    border-bottom: 2px solid black;
+}
+ul.menu li a:hover
+{
+    border-bottom: 2px solid black;
+    
+}
