@@ -2,20 +2,20 @@
 {
     height:80px;
     width:auto;
-    padding: 10px 0px 10px 100px;
 }
 ul.menu
 {
     display: flex;
-    position: absolute;
-    margin: -90px 0 0 50%;
+    align-items: center;
 }
 ul.menu li
 {
     list-style: none;
+    display: inline-block;
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    padding: 20px;
+    
     
 }
 ul.menu li a
@@ -32,4 +32,15 @@ ul.menu li a:hover
 {
     border-bottom: 2px solid black;
     
+}
+.fixednav
+{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px 10px 100px;
+    position: fixed;
+    z-index: 9999;
+    background-color: beige;
 }
